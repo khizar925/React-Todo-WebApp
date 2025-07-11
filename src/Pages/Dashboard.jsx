@@ -110,6 +110,8 @@ export default function Dashboard() {
           <button
             onClick={() => {
               localStorage.removeItem("loggedInUser");
+              localStorage.removeItem("todos");
+
               navigate("/");
             }}
             style={btnStyle}
