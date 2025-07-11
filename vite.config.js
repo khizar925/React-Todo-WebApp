@@ -10,4 +10,8 @@ export default defineConfig({
     },
     host: true,
   },
+  build: {
+    outDir: 'dist'
+  },
+  base: '/',
 })
